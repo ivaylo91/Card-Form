@@ -13,15 +13,14 @@
 <div class="main">
     <div class="emoji mb-6">💣🤯💥</div>
     <button class="button">Boom?</button>
-    <form>
-        <label for="ccname">CCName:</label>
-        <input type="text" name="ccname" class="input" autocomplete="input">
-        <label for="cardnumber">Card Number:</label>
-        <input type="text" name="cardnumber" class="input" autocomplete="input">
-        <label for="cvc">CVC:</label>
-        <input type="text" name="cvc" class="input" autocomplete="input">
-        <label for="cc-exp">CC Expiration:</label>
-        <input type="text" name="card-exp" class="input" autocomplete="input">
+    <form method="post">
+        <input type="text" name="ccname" class="ccname" placeholder="Joe Doe" autocomplete="Joe Doe">
+
+        <input type="number" name="cardnumber" placeholder="1234 5678 9988 7735" autocomplete="1234 5678 9988 7735">
+
+        <input type="number" name="cvc" placeholder="123" autocomplete="123">
+
+        <input type="number" name="card-exp" placeholder="06/23" autocomplete="06/23">
     </form>
 </div>
 </body>
