@@ -12,18 +12,23 @@
 <body>
 <div class="main">
     <div class="emoji mb-6">💣🤯💥</div>
-    <form action="">
-        <label for="ccname">ccname</label>
-        <input type="text" class="input" name="ccname" id="ccname">
-        <label for="cardnumber">cardnumber</label>
-        <input type="number" class="input" name="cardnumber" id="cardnumber">
-        <label for="cvc">cvc</label>
-        <input type="number" class="input" name="cvc" id="cvc">
-        <label for="cc-exp">cc-exp</label>
-        <input type="number" class="input" name="cc-exp" id="cc-exp">
-    </form>
-
     <button class="button">Boom?</button>
+    <form action="" class="form">
+        <label for="ccname">CC Name:</label>
+        <input type="text" id="ccname" class="input">
+
+        <label for="cardnumber">Card Number</label>
+        <input type="number" id="cardnumber" name="cardnumber" class="input"/>
+
+        <label for="cvc">CVC</label>
+        <input type="number" id="cvc" name="cvc" class="input"/>
+
+        <label for="cc-exp">Expiring</label>
+        <input type="number" id="cc-exp" name="cc-exp" class="input"/>
+
+        <button type="submit">Submit</button>
+
+    </form>
 </div>
 </body>
 </html>
